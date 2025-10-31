@@ -1,0 +1,15 @@
+C:\Users\katri\Projekt3\DataSkema\DataSkema\obj\Debug\net9.0\DataSkema.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\katri\Projekt3\DataSkema\DataSkema\obj\Debug\net9.0\DataSkema.AssemblyInfoInputs.cache
+C:\Users\katri\Projekt3\DataSkema\DataSkema\obj\Debug\net9.0\DataSkema.AssemblyInfo.cs
+C:\Users\katri\Projekt3\DataSkema\DataSkema\obj\Debug\net9.0\DataSkema.csproj.CoreCompileInputs.cache
+C:\Users\katri\Projekt3\DataSkema\DataSkema\obj\Debug\net9.0\DataSkema.sourcelink.json
+C:\Users\katri\Projekt3\DataSkema\DataSkema\bin\Debug\net9.0\DataSkema.exe
+C:\Users\katri\Projekt3\DataSkema\DataSkema\bin\Debug\net9.0\DataSkema.deps.json
+C:\Users\katri\Projekt3\DataSkema\DataSkema\bin\Debug\net9.0\DataSkema.runtimeconfig.json
+C:\Users\katri\Projekt3\DataSkema\DataSkema\bin\Debug\net9.0\DataSkema.dll
+C:\Users\katri\Projekt3\DataSkema\DataSkema\bin\Debug\net9.0\DataSkema.pdb
+C:\Users\katri\Projekt3\DataSkema\DataSkema\obj\Debug\net9.0\DataSkema.dll
+C:\Users\katri\Projekt3\DataSkema\DataSkema\obj\Debug\net9.0\refint\DataSkema.dll
+C:\Users\katri\Projekt3\DataSkema\DataSkema\obj\Debug\net9.0\DataSkema.pdb
+C:\Users\katri\Projekt3\DataSkema\DataSkema\obj\Debug\net9.0\DataSkema.genruntimeconfig.cache
+C:\Users\katri\Projekt3\DataSkema\DataSkema\obj\Debug\net9.0\ref\DataSkema.dll
