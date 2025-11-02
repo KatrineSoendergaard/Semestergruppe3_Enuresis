@@ -9,9 +9,9 @@
             Console.WriteLine(" Test af datalogger ");
 
             // Testmålinger
-            Measurement m1 = new Measurement("Ble", 156.4);
+            Measurement m1 = new Measurement("Ble", 200.4);
             Measurement m2 = new Measurement("Urin", 80.6);
-            Measurement m3 = new Measurement("Væske", 130.9);
+            Measurement m3 = new Measurement("Drikkevare", 130.9); //væske er træls da der den indeholder Æ
 
             // Gemmer dem
             DataLogger.AppendMeasurement(m1);
