@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VaeskeVandladningsSkema")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+c91d282f5b00e01e170068b844bb74df758bffd0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e7a9105815085bbfc61f2598babfff27c755471a")]
 [assembly: System.Reflection.AssemblyProductAttribute("VaeskeVandladningsSkema")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VaeskeVandladningsSkema")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
