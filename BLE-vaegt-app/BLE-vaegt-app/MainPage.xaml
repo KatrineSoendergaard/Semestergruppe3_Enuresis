@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BLE_vaegt_app.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a hovercraft number nine" />
+
+            <Label
+                Text="Smart Vægt BLE"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Button
+                x:Name="ScanButton"
+                Text="Scan efter enheder" 
+                SemanticProperties.Hint="Finder smartphone enhed"
+                Clicked="ScanButton_Clicked"
+                HorizontalOptions="Fill" />
+
+            <Label
+                x:Name="StatusLabel"
+                Text="Ikke forbundet" />
+
+            <Label
+                x:Name="WeightLabel"
+                Text="Vægt: -- ml"/>
+            <Label
+                x:Name="LogData"
+                Text="Her vises logdata"
+                />
+            <Label
+                x:Name ="FilLabel"
+                Text ="Her er filen gemt:  "
+                />
+
+            </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLE-vaegt-app", "BLE-vaegt-app\BLE-vaegt-app.csproj", "{92CD84FD-A065-4130-8F38-9ABCDBCBA697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSkema_Library", "DataSkema_Library\DataSkema_Library.csproj", "{45FF2153-14AC-4BA8-9DAA-744CA9A583B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92CD84FD-A065-4130-8F38-9ABCDBCBA697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92CD84FD-A065-4130-8F38-9ABCDBCBA697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92CD84FD-A065-4130-8F38-9ABCDBCBA697}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{92CD84FD-A065-4130-8F38-9ABCDBCBA697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92CD84FD-A065-4130-8F38-9ABCDBCBA697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45FF2153-14AC-4BA8-9DAA-744CA9A583B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45FF2153-14AC-4BA8-9DAA-744CA9A583B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45FF2153-14AC-4BA8-9DAA-744CA9A583B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45FF2153-14AC-4BA8-9DAA-744CA9A583B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD4C4E2B-28E7-427E-8CDA-2AB73A7F37C4}
+	EndGlobalSection
+EndGlobal
