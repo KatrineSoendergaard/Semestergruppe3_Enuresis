@@ -13,20 +13,20 @@
 
     
     <!-- Flyout-menu -->
+    <FlyoutItem Title="Menu">
+        <ShellContent Title="Menu" ContentTemplate="{DataTemplate pages:MenuPage}" Route="Dag1Page" />
+    </FlyoutItem>
+
     <FlyoutItem Title="Information">
         <ShellContent Title="Information" ContentTemplate="{DataTemplate pages:InfoPage}" Route="Dag2Page" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Menu">
-        <ShellContent Title="Menu" ContentTemplate="{DataTemplate pages:MenuPage}" Route="Dag3Page" />
-    </FlyoutItem>
-
     <FlyoutItem Title="Skema">
-        <ShellContent Title="Skema" ContentTemplate="{DataTemplate pages:SkemaPage}" Route="Dag4Page" />
+        <ShellContent Title="Skema" ContentTemplate="{DataTemplate pages:SkemaPage}" Route="Dag3Page" />
     </FlyoutItem>
 
     <FlyoutItem Title="Oversigt">
-        <ShellContent Title="Oversigt" ContentTemplate="{DataTemplate pages:LogSkema}" Route="Dag5Page" />
+        <ShellContent Title="Oversigt" ContentTemplate="{DataTemplate pages:LogSkema}" Route="Dag4Page" />
     </FlyoutItem>
 
     

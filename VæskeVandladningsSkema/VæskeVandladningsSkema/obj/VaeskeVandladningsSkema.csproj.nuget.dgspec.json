@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\katri\\Projekt3\\VæskeVandladningsSkema\\VæskeVandladningsSkema\\VaeskeVandladningsSkema.csproj": {}
+    "C:\\Users\\awh60\\Projekt3_Kode\\VæskeVandladningsSkema\\VæskeVandladningsSkema\\VaeskeVandladningsSkema.csproj": {}
   },
   "projects": {
-    "C:\\Users\\katri\\Projekt3\\VæskeVandladningsSkema\\VæskeVandladningsSkema\\VaeskeVandladningsSkema.csproj": {
+    "C:\\Users\\awh60\\Projekt3_Kode\\VæskeVandladningsSkema\\VæskeVandladningsSkema\\VaeskeVandladningsSkema.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\katri\\Projekt3\\VæskeVandladningsSkema\\VæskeVandladningsSkema\\VaeskeVandladningsSkema.csproj",
+        "projectUniqueName": "C:\\Users\\awh60\\Projekt3_Kode\\VæskeVandladningsSkema\\VæskeVandladningsSkema\\VaeskeVandladningsSkema.csproj",
         "projectName": "VaeskeVandladningsSkema",
-        "projectPath": "C:\\Users\\katri\\Projekt3\\VæskeVandladningsSkema\\VæskeVandladningsSkema\\VaeskeVandladningsSkema.csproj",
-        "packagesPath": "C:\\Users\\katri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\katri\\Projekt3\\VæskeVandladningsSkema\\VæskeVandladningsSkema\\obj\\",
+        "projectPath": "C:\\Users\\awh60\\Projekt3_Kode\\VæskeVandladningsSkema\\VæskeVandladningsSkema\\VaeskeVandladningsSkema.csproj",
+        "packagesPath": "C:\\Users\\awh60\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\awh60\\Projekt3_Kode\\VæskeVandladningsSkema\\VæskeVandladningsSkema\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\katri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\awh60\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -31,7 +31,8 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://sw.orbit.au.dk/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-android34.0": {

@@ -24,6 +24,11 @@ namespace VaeskeVandladningsSkema.Pages
             await Shell.Current.GoToAsync("SkemaPage?dag=3");
         }
 
+        private async void OnInfoClicked(object sender, System.EventArgs e)
+        {
+            await Shell.Current.GoToAsync("InfoPage");
+        }
+
         private async void OnOversigtClicked(object sender, System.EventArgs e)
         {
             await Shell.Current.GoToAsync("LogSkema");
