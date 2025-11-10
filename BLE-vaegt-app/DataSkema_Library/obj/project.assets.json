@@ -7567,11 +7567,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\katri\\OneDrive\\Skrivebord\\Projekt_DataSkema\\App\\BLE-vaegt-app\\DataSkema_Library\\DataSkema_Library.csproj",
+      "projectUniqueName": "C:\\Users\\katri\\Projekt3\\BLE-vaegt-app\\DataSkema_Library\\DataSkema_Library.csproj",
       "projectName": "DataSkema_Library",
-      "projectPath": "C:\\Users\\katri\\OneDrive\\Skrivebord\\Projekt_DataSkema\\App\\BLE-vaegt-app\\DataSkema_Library\\DataSkema_Library.csproj",
+      "projectPath": "C:\\Users\\katri\\Projekt3\\BLE-vaegt-app\\DataSkema_Library\\DataSkema_Library.csproj",
       "packagesPath": "C:\\Users\\katri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\katri\\OneDrive\\Skrivebord\\Projekt_DataSkema\\App\\BLE-vaegt-app\\DataSkema_Library\\obj\\",
+      "outputPath": "C:\\Users\\katri\\Projekt3\\BLE-vaegt-app\\DataSkema_Library\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

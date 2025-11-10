@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataSkema_Library")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdbdb008219f500e415fae2edff3ad39dd9184e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataSkema_Library")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataSkema_Library")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -22,6 +22,7 @@ namespace BLE_vaegt_app
             handler = new MeasurementHandler();
             ConnectAutomatically();
         }
+
         private async void ConnectAutomatically()
         {
             try
@@ -51,7 +52,8 @@ namespace BLE_vaegt_app
         private async Task DataModtager()
         {
             var service = await hm10Device.GetServiceAsync(Guid.Parse("0000ffe0-0000-1000-8000-00805f9b34fb"));
-            uartCharacteristic = await service.GetCharacteristicAsync(Guid.Parse("0000ffe1-0000-1000-8000-00805f9b34fb"));
+            uartCharacteristic =
+                await service.GetCharacteristicAsync(Guid.Parse("0000ffe1-0000-1000-8000-00805f9b34fb"));
 
             uartCharacteristic.ValueUpdated += (s, a) =>
             {
@@ -65,8 +67,6 @@ namespace BLE_vaegt_app
 
             await uartCharacteristic.StartUpdatesAsync();
         }
-
-
 
         private async void ScanButton_Clicked(object sender, EventArgs e)
         {
@@ -92,7 +92,33 @@ namespace BLE_vaegt_app
             await adapter.ConnectToDeviceAsync(hm10Device);
             StatusLabel.Text = $"Forbundet til {hm10Device.Name}";
 
-            Preferences.Set("BleDeviceId", hm10Device.Id.ToString()); //Gemmer værdien for HM10 modulet til at connecte automatisk til telefonen næste gang
+            Preferences.Set("BleDeviceId",
+                hm10Device.Id
+                    .ToString()); //Gemmer værdien for HM10 modulet til at connecte automatisk til telefonen næste gang
+        }
+    }
+
+    private async void DeleteButton_Clicked(object sender, EventArgs e)
+    {
+        bool confirm = await DisplayAlert //Skal oprettes i xaml. Note til mig selv. DisplayAlert findes allerede i 
+        (
+            "Slet log", // Title hedder den i xaml
+            "Er du sikker på at du vil slette logfilen?", // Message
+            "Ja", // Accept button
+            "Nej" // Cancel button
+        );
+
+        if (confirm) //Returnere true
+        {
+            // User clicked "Ja"
+            DeleteLog deleteLog = new DeleteLog();
+            deleteLog.DeleteLogFile("vandladningskema.csv");
+        }
+        else
+        {
+            // User clicked "Nej"
+            StatusLabel.Text = "Sletning annulleret"; //Skal oprettes i xaml
         }
     }
 }
+
