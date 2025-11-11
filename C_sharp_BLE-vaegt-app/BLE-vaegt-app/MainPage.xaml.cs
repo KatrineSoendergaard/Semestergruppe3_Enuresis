@@ -8,7 +8,7 @@ namespace BLE_vaegt_app
 {
     public partial class MainPage : ContentPage
     {
-        //Fields
+        // Fields
         IAdapter adapter;
         IBluetoothLE ble;
         IDevice hm10Device;
