@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VaeskeVandladningsSkema.Pages.InfoPage"
+             BackgroundColor="White"
+             Title="Information">
+    
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="10" BackgroundColor="White">
+            <Label Text="Væske- og Vandladningsskema" FontAttributes="Bold" FontSize="Header"   />
+            <Label Text="Et væske- og vandladningsskema er en dagbog over, hvad og hvor meget du drikker, og hvor stor din vandladning er."/>
+            <Label Text="Skemaet udfyldes over 3 døgn."/>
+
+            <Label Text="Vejledning til udfyldelse af skema" FontAttributes="Bold" FontSize="Title" Margin="0,20,0,2" />
+
+            <Label Text="Væskeindtagelse" FontAttributes="Bold" FontSize="Subtitle" />
+            <Label Text="Mængden af alle drikkevarer, inklusive kaffe, te, alkohol m.m., måles." FontAttributes="None" FontSize="Default"  />
+
+            <Label Text="Vandladning" FontAttributes="Bold" FontSize="Subtitle" Margin="0,20,0,2" />
+            <Label Text="Mål mængden med et målebæger." FontAttributes="None" FontSize="Default" />
+            <Label Text="Vandladningens mængde er en vigtig information for lægen. Det er derfor af stor betydning, at du måler mængden så præcist som muligt." FontAttributes="None" FontSize="Default" />
+
+
+            <Label Text="Utæt for urin" FontAttributes="Bold" FontSize="Subtitle" Margin="0,20,0,2" />
+            <Label Text="Når du har ufrivillig vandladning (»dryp«, lidt eller meget)." FontAttributes="None" FontSize="Default" />
+
+
+            <Label Text="Aktivitet" FontAttributes="Bold" FontSize="Subtitle" Margin="0,20,0,2" />
+            <Label Text="Hvad foretog du dig, da du var utæt for urin? Fx hostede, løftede ting, løb, gjorde gymnastik, satte dig ned i stol, så fjernsyn etc." FontAttributes="None" FontSize="Default"  />
+
+            <Image Source="infoskema.png"
+                   WidthRequest="1400"
+                   HeightRequest="150"
+                   HorizontalOptions="Center"
+                   Margin="0,40,0,10"/>
+
+            <Button Text="Gå til menu" BackgroundColor="LightSteelBlue"  Clicked="OnNextClicked" Margin="0,40,0,10"/>
+
+        </VerticalStackLayout>
+        
+    </ScrollView>
+    
+</ContentPage>

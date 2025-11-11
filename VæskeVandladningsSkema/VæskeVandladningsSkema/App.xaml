@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VaeskeVandladningsSkema.App">
+    
+    <Application.Resources>
+        <ResourceDictionary>
+            <!-- Baggrundsfarve for alle sider -->
+            <Color x:Key="AppBackgroundColor">White</Color>
+            <Style TargetType="ContentPage">
+                <Setter Property="BackgroundColor" Value="{StaticResource AppBackgroundColor}" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+    
+</Application>

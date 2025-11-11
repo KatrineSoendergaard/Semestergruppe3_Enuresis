@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VaeskeVandladningsSkema.Pages.MenuPage"
+             BackgroundColor="White"
+             Title="Menu">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="100" Spacing="12" BackgroundColor="White">
+
+         <Label Text="Vælg den ønskede kategori" FontAttributes="Bold" FontSize="Subtitle"  />
+
+         <Button Text="Information" Clicked="OnInfoClicked" Margin="0,20,0,0" BackgroundColor="LightSteelBlue" />
+
+
+            <Button Text="Skema - Dag 1" Clicked="OnDag1Clicked" Margin="0,20,0,0" BackgroundColor="LightSteelBlue" />
+         <Button Text="Skema - Dag 2" Clicked="OnDag2Clicked" BackgroundColor="LightSteelBlue" />
+         <Button Text="Skema - Dag 3" Clicked="OnDag3Clicked" BackgroundColor="LightSteelBlue" />
+         <Button Text="Skema - Dag 4" Clicked="OnDag4Clicked" BackgroundColor="LightSteelBlue" />
+         <Button Text="Skema - Dag 5" Clicked="OnDag5Clicked" BackgroundColor="LightSteelBlue" />
+          <Button Text="Skema - Dag 6" Clicked="OnDag6Clicked" BackgroundColor="LightSteelBlue" />
+         <Button Text="Skema - Dag 7" Clicked="OnDag7Clicked" BackgroundColor="LightSteelBlue" />
+
+         <Button Text="Oversigt af målinger" Clicked="OnOversigtClicked" Margin="0,20,0,0" BackgroundColor="LightSteelBlue" />
+
+           <Button Text="Log ud" Clicked="OnLogoutClicked" Margin="0,40,0,0" BackgroundColor="LightSalmon" FontAttributes="Bold" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
