@@ -11,6 +11,7 @@ namespace DataSkema_Library
         // Laver en fil hvis der ikke er en fil med samme navn i forvejen
         public DataLogger(string fileName = "vandladningskema.csv") 
         {
+            // Opretter en sti
             filePath = Path.Combine(FileSystem.AppDataDirectory, fileName); 
 
         }

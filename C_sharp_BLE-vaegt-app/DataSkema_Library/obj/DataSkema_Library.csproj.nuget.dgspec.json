@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\katri\\Projekt3\\BLE-vaegt-app\\DataSkema_Library\\DataSkema_Library.csproj": {}
+    "C:\\Users\\clund\\Projekt3\\C_sharp_BLE-vaegt-app\\DataSkema_Library\\DataSkema_Library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\katri\\Projekt3\\BLE-vaegt-app\\DataSkema_Library\\DataSkema_Library.csproj": {
+    "C:\\Users\\clund\\Projekt3\\C_sharp_BLE-vaegt-app\\DataSkema_Library\\DataSkema_Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\katri\\Projekt3\\BLE-vaegt-app\\DataSkema_Library\\DataSkema_Library.csproj",
+        "projectUniqueName": "C:\\Users\\clund\\Projekt3\\C_sharp_BLE-vaegt-app\\DataSkema_Library\\DataSkema_Library.csproj",
         "projectName": "DataSkema_Library",
-        "projectPath": "C:\\Users\\katri\\Projekt3\\BLE-vaegt-app\\DataSkema_Library\\DataSkema_Library.csproj",
-        "packagesPath": "C:\\Users\\katri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\katri\\Projekt3\\BLE-vaegt-app\\DataSkema_Library\\obj\\",
+        "projectPath": "C:\\Users\\clund\\Projekt3\\C_sharp_BLE-vaegt-app\\DataSkema_Library\\DataSkema_Library.csproj",
+        "packagesPath": "C:\\Users\\clund\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\clund\\Projekt3\\C_sharp_BLE-vaegt-app\\DataSkema_Library\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\katri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\clund\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -31,7 +31,8 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://sw.orbit.au.dk/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net9.0-android35.0": {
@@ -69,7 +70,7 @@
           "dependencies": {
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.82, )"
+              "version": "[9.0.111, )"
             }
           },
           "imports": [
@@ -91,19 +92,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         },
         "net9.0-ios18.0": {
           "targetAlias": "net9.0-ios",
           "dependencies": {
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.82, )"
+              "version": "[9.0.111, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.8, )",
+              "version": "[9.0.10, )",
               "autoReferenced": true
             }
           },
@@ -126,19 +127,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         },
         "net9.0-maccatalyst18.0": {
           "targetAlias": "net9.0-maccatalyst",
           "dependencies": {
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.82, )"
+              "version": "[9.0.111, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.8, )",
+              "version": "[9.0.10, )",
               "autoReferenced": true
             }
           },
@@ -162,14 +163,14 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         },
         "net9.0-windows10.0.19041": {
           "targetAlias": "net9.0-windows10.0.19041.0",
           "dependencies": {
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.82, )"
+              "version": "[9.0.111, )"
             }
           },
           "imports": [
@@ -197,7 +198,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
