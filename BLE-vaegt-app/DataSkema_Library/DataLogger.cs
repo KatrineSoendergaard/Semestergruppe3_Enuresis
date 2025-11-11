@@ -8,23 +8,24 @@ namespace DataSkema_Library
     {
         private readonly string filePath;
 
-        public DataLogger(string fileName = "vandladningskema.csv")
+        // Laver en fil hvis der ikke er en fil med samme navn i forvejen
+        public DataLogger(string fileName = "vandladningskema.csv") 
         {
-            //string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-            filePath = Path.Combine(FileSystem.AppDataDirectory, fileName);
+            filePath = Path.Combine(FileSystem.AppDataDirectory, fileName); 
 
         }
 
-        // Her bruger vi bare den aktuelle mappe, i stedet for AppDataDirectory
-        // = Path.Combine(Environment.AppDataDirectory, "Vandladningsskema.csv");
-
+        //Metode der indskriver en ny linje i filen
         public void AppendMeasurement(Measurement m)
         {
+            //Konvertere til en string
             string line = m.ToString();
-            File.AppendAllText(filePath, line + Environment.NewLine); //AppendAllTekst tilføjer en ny linje til filen
+            //AppendAllTekst tilføjer en ny linje til filen
+            File.AppendAllText(filePath, line + Environment.NewLine); 
         }
 
-        public string GetFilePath()
+        //Metode der returnere stien
+        public string GetFilePath() 
         {
             return filePath;
         }

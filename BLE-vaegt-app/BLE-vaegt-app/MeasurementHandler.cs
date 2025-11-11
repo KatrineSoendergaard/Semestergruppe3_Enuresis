@@ -9,10 +9,11 @@ namespace BLE_vaegt_app
 {
     public class MeasurementHandler
     {
-
-        public void HandleIncomingData(string data, Label weightLabel, Label logData, Label fileLabel)
+        //Metode der modtager data fra Arduino
+        public void HandleIncomingData(string data, Label weightLabel, Label logData, Label fileLabel) 
         {
-            string[] dataSplitted = data.Split(':');
+            // Deler modtaget data op imellem " : "
+            string[] dataSplitted = data.Split(':'); 
 
             // Sæt UI tekst
             weightLabel.Text = dataSplitted[0] + dataSplitted[1];

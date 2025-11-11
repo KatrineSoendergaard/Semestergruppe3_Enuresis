@@ -10,24 +10,29 @@ namespace DataSkema_Library
 {
     public class DeleteLog
     {
-        public void DeleteLogFile(string filePath) // Nulstillingen af log efter endt behandling
+        // Metode der nulstiller log efter endt behandling
+        public void DeleteLogFile(string filePath) 
 
         {
             try
             {
-
-                if (File.Exists(filePath))
+                //Tjekker om filen findes
+                if (File.Exists(filePath)) 
                 {
-                    File.Delete(filePath);
+                    //Sletter filen og alt data
+                    File.Delete(filePath); 
                     Console.WriteLine($"{filePath} nulstillet med succes.");
                 }
                 else
                 {
-                    Console.WriteLine("Filen eksistere ikke");
+                    // hvis den ikke kan finde den skriver den dette ud i console
+                    Console.WriteLine("Filen eksistere ikke"); 
                 }
             }
-            catch (Exception ex)
+            //Dette er kun hvis der sker en fejl
+            catch (Exception ex) 
             {
+                // Udskriver hvilken fejl der er sket
                 Console.WriteLine("Der skete en fejl:" + ex.Message);
             }
             

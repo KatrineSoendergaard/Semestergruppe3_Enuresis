@@ -8,9 +8,12 @@ namespace DataSkema_Library
 {
     public class Measurement
         {
-        public string Type { get; set; } // Typen kan være BLE, URIN el. VÆSKE
-        public double Weight { get; set; } // Hvor meget der er blevet mål, dette skulle gerne være i gram(tjek med arduino)
-        public DateTime Timestamp { get; set; } // DateTime giver den specifikke tidspunkt målingen er taget 
+            // Typen kan være BLE, URIN el. VÆSKE
+            public string Type { get; set; }
+            // Hvor meget der er blevet målt i gram
+            public double Weight { get; set; }
+            // DateTime giver den specifikke tidspunkt målingen er taget 
+            public DateTime Timestamp { get; set; } 
 
         public Measurement(string type, double weight)
         {
@@ -21,7 +24,8 @@ namespace DataSkema_Library
 
         public override string ToString()
         {
-            return $"{Timestamp:dd-MM-yyyy HH:mm}, {Type}, {Weight} g"; //Dette er sådan det bliver skrevet ind i filen
+            //Dette er sådan det bliver skrevet ind i filen
+            return $"{Timestamp:dd-MM-yyyy HH:mm}, {Type}, {Weight} g"; 
         }
     }
 }
