@@ -10,6 +10,15 @@ namespace VaeskeVandladningsSkema.Pages
             InitializeComponent();
         }
 
+        // Sørg for at felterne er tomme hver gang siden vises
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            NavnEntry.Text = string.Empty;
+            CprEntry.Text = string.Empty;
+        }
+
 
         // Kun bogstaver i Navn
         private void NavnEntry_TextChanged(object sender, TextChangedEventArgs e)
@@ -65,9 +74,12 @@ namespace VaeskeVandladningsSkema.Pages
                 return;
             }
 
-            // Login OK – naviger videre til WelcomePage og send brugernavn
-            string brugerNavn = NavnEntry.Text;
-            await Shell.Current.GoToAsync($"WelcomePage?userName={brugerNavn}");
+            // Gem globalt
+            GlobalData.Navn = NavnEntry.Text;
+            GlobalData.Cpr = CprEntry.Text;
+
+            // Naviger til WelcomePage
+            await Shell.Current.GoToAsync($"WelcomePage?userName={NavnEntry.Text}");
         }
 
     }

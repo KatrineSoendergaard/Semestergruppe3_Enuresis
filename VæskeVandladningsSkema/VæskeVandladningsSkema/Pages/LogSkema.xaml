@@ -6,12 +6,8 @@
              BackgroundColor="White"
              Title="Oversigt af målinger">
 
-    <VerticalStackLayout BackgroundColor="White">
-        <Label 
-            Text="Velkommen til oversigt af dine målinger"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
-
+    <ScrollView>
+        <StackLayout x:Name="MeasurementsStack" Padding="10" Spacing="5" />
+    </ScrollView>
 
 </ContentPage>

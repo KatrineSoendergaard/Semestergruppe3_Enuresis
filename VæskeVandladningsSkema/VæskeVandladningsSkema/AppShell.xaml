@@ -19,19 +19,17 @@
     </FlyoutItem>
 
     <FlyoutItem Title="Skema">
-        <ShellContent Title="Dag 1" ContentTemplate="{DataTemplate pages:SkemaPage}" Route="skema?dag=1"/>
-        <ShellContent Title="Dag 2" ContentTemplate="{DataTemplate pages:SkemaPage}" Route="skema?dag=2"/>
-        <ShellContent Title="Dag 3" ContentTemplate="{DataTemplate pages:SkemaPage}" Route="skema?dag=3"/>
-        <ShellContent Title="Dag 4" ContentTemplate="{DataTemplate pages:SkemaPage}" Route="skema?dag=4"/>
-        <ShellContent Title="Dag 5" ContentTemplate="{DataTemplate pages:SkemaPage}" Route="skema?dag=5"/>
-        <ShellContent Title="Dag 6" ContentTemplate="{DataTemplate pages:SkemaPage}" Route="skema?dag=6"/>
-        <ShellContent Title="Dag 7" ContentTemplate="{DataTemplate pages:SkemaPage}" Route="skema?dag=7"/>
+        <ShellContent Title="Skema"
+                ContentTemplate="{DataTemplate pages:SkemaPage}" 
+                Route="skema" />
 
     </FlyoutItem>
 
     <FlyoutItem Title="Oversigt af målinger">
         <ShellContent Title="Oversigt af målinger" ContentTemplate="{DataTemplate pages:LogSkema}" Route="logoversigt" />
     </FlyoutItem>
+
+    <MenuItem Text="Log ud" Clicked="OnLogoutClicked"/>
 
     <!-- Login som startside, uden flyout -->
     <ShellContent

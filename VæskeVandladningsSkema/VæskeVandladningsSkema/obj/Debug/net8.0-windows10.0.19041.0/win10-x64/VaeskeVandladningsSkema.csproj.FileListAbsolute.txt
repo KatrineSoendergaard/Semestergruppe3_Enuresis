@@ -178,6 +178,18 @@ C:\Users\awh60\OneDrive\Desktop\VæskeVandladningsSkema\VæskeVandladningsSkema\
 C:\Users\awh60\OneDrive\Desktop\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\awh60\OneDrive\Desktop\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\Users\awh60\OneDrive\Desktop\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\infoskema.scale-100.png
+C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\VaeskeVandladningsSkema.csproj.AssemblyReference.cache
+C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\VaeskeVandladningsSkema.GeneratedMSBuildEditorConfig.editorconfig
 C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\VaeskeVandladningsSkema.exe
 C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
 C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\VaeskeVandladningsSkema.deps.json
@@ -257,18 +269,6 @@ C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\bin\Debug\n
 C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
 C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.SDK.NET.dll
 C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\WinRT.Runtime.dll
-C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\VaeskeVandladningsSkema.csproj.AssemblyReference.cache
-C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
-C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.inputs
-C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
-C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
-C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
-C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
-C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
-C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
-C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
-C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
-C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\VaeskeVandladningsSkema.GeneratedMSBuildEditorConfig.editorconfig
 C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png
 C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png
 C:\Semesterprojekt 3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png

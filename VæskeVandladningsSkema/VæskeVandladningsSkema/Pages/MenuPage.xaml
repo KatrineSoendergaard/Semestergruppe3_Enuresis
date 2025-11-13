@@ -13,14 +13,8 @@
          <Button Text="Information" Clicked="OnInfoClicked" Margin="0,20,0,0" BackgroundColor="LightSteelBlue" />
 
 
-            <Button Text="Skema - Dag 1" Clicked="OnDag1Clicked" Margin="0,20,0,0" BackgroundColor="LightSteelBlue" />
-         <Button Text="Skema - Dag 2" Clicked="OnDag2Clicked" BackgroundColor="LightSteelBlue" />
-         <Button Text="Skema - Dag 3" Clicked="OnDag3Clicked" BackgroundColor="LightSteelBlue" />
-         <Button Text="Skema - Dag 4" Clicked="OnDag4Clicked" BackgroundColor="LightSteelBlue" />
-         <Button Text="Skema - Dag 5" Clicked="OnDag5Clicked" BackgroundColor="LightSteelBlue" />
-          <Button Text="Skema - Dag 6" Clicked="OnDag6Clicked" BackgroundColor="LightSteelBlue" />
-         <Button Text="Skema - Dag 7" Clicked="OnDag7Clicked" BackgroundColor="LightSteelBlue" />
-
+            <Button Text="Skema" Clicked="OnSkemaClicked" Margin="0,20,0,0" BackgroundColor="LightSteelBlue" />
+         
          <Button Text="Oversigt af målinger" Clicked="OnOversigtClicked" Margin="0,20,0,0" BackgroundColor="LightSteelBlue" />
 
            <Button Text="Log ud" Clicked="OnLogoutClicked" Margin="0,40,0,0" BackgroundColor="LightSalmon" FontAttributes="Bold" />

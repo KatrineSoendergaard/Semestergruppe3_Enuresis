@@ -30,269 +30,269 @@
     <AppXManifest Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-11-11T10:49:27.941</Modified>
+      <Modified>2025-11-13T09:22:40.594</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-11-11T10:49:27.755</Modified>
+      <Modified>2025-11-13T09:22:40.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\VaeskeVandladningsSkema.runtimeconfig.json">
       <PackagePath>VaeskeVandladningsSkema.runtimeconfig.json</PackagePath>
-      <Modified>2025-11-11T10:49:27.462</Modified>
+      <Modified>2025-11-13T09:22:40.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\VaeskeVandladningsSkema.dll">
       <PackagePath>VaeskeVandladningsSkema.dll</PackagePath>
-      <Modified>2025-11-11T10:49:26.062</Modified>
+      <Modified>2025-11-13T09:22:38.863</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>VaeskeVandladningsSkema.exe</PackagePath>
-      <Modified>2025-11-11T10:49:26.092</Modified>
+      <Modified>2025-11-13T09:22:38.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2025-11-11T10:48:37.734</Modified>
+      <Modified>2025-11-13T09:21:42.519</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-11-11T10:48:57.487</Modified>
+      <Modified>2025-11-13T09:22:16.417</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-11-11T10:48:57.504</Modified>
+      <Modified>2025-11-13T09:22:16.446</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-11-11T10:48:57.522</Modified>
+      <Modified>2025-11-13T09:22:16.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-11-11T10:48:57.555</Modified>
+      <Modified>2025-11-13T09:22:16.526</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-11-11T10:48:57.659</Modified>
+      <Modified>2025-11-13T09:22:16.764</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2025-11-11T10:48:37.708</Modified>
+      <Modified>2025-11-13T09:21:42.499</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2025-11-11T10:48:37.708</Modified>
+      <Modified>2025-11-13T09:21:42.509</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-11-11T10:48:58.798</Modified>
+      <Modified>2025-11-13T09:22:17.817</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.783</Modified>
+      <Modified>2025-11-13T09:22:17.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.783</Modified>
+      <Modified>2025-11-13T09:22:17.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.783</Modified>
+      <Modified>2025-11-13T09:22:17.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.782</Modified>
+      <Modified>2025-11-13T09:22:17.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.782</Modified>
+      <Modified>2025-11-13T09:22:17.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.792</Modified>
+      <Modified>2025-11-13T09:22:17.811</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.792</Modified>
+      <Modified>2025-11-13T09:22:17.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.791</Modified>
+      <Modified>2025-11-13T09:22:17.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.792</Modified>
+      <Modified>2025-11-13T09:22:17.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.791</Modified>
+      <Modified>2025-11-13T09:22:17.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.794</Modified>
+      <Modified>2025-11-13T09:22:17.813</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.794</Modified>
+      <Modified>2025-11-13T09:22:17.811</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.793</Modified>
+      <Modified>2025-11-13T09:22:17.811</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.793</Modified>
+      <Modified>2025-11-13T09:22:17.811</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.793</Modified>
+      <Modified>2025-11-13T09:22:17.811</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.797</Modified>
+      <Modified>2025-11-13T09:22:17.817</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.797</Modified>
+      <Modified>2025-11-13T09:22:17.817</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.797</Modified>
+      <Modified>2025-11-13T09:22:17.817</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.796</Modified>
+      <Modified>2025-11-13T09:22:17.815</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.796</Modified>
+      <Modified>2025-11-13T09:22:17.815</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.796</Modified>
+      <Modified>2025-11-13T09:22:17.815</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.796</Modified>
+      <Modified>2025-11-13T09:22:17.815</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.794</Modified>
+      <Modified>2025-11-13T09:22:17.813</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.795</Modified>
+      <Modified>2025-11-13T09:22:17.813</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.795</Modified>
+      <Modified>2025-11-13T09:22:17.813</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.787</Modified>
+      <Modified>2025-11-13T09:22:17.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.787</Modified>
+      <Modified>2025-11-13T09:22:17.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.787</Modified>
+      <Modified>2025-11-13T09:22:17.804</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.785</Modified>
+      <Modified>2025-11-13T09:22:17.804</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.785</Modified>
+      <Modified>2025-11-13T09:22:17.804</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.789</Modified>
+      <Modified>2025-11-13T09:22:17.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.789</Modified>
+      <Modified>2025-11-13T09:22:17.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.788</Modified>
+      <Modified>2025-11-13T09:22:17.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.788</Modified>
+      <Modified>2025-11-13T09:22:17.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.788</Modified>
+      <Modified>2025-11-13T09:22:17.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.791</Modified>
+      <Modified>2025-11-13T09:22:17.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.790</Modified>
+      <Modified>2025-11-13T09:22:17.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.790</Modified>
+      <Modified>2025-11-13T09:22:17.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.790</Modified>
+      <Modified>2025-11-13T09:22:17.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.789</Modified>
+      <Modified>2025-11-13T09:22:17.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.785</Modified>
+      <Modified>2025-11-13T09:22:17.804</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.784</Modified>
+      <Modified>2025-11-13T09:22:17.804</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.784</Modified>
+      <Modified>2025-11-13T09:22:17.804</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.784</Modified>
+      <Modified>2025-11-13T09:22:17.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.784</Modified>
+      <Modified>2025-11-13T09:22:17.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.800</Modified>
+      <Modified>2025-11-13T09:22:17.819</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.799</Modified>
+      <Modified>2025-11-13T09:22:17.819</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.799</Modified>
+      <Modified>2025-11-13T09:22:17.819</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.798</Modified>
+      <Modified>2025-11-13T09:22:17.819</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.798</Modified>
+      <Modified>2025-11-13T09:22:17.819</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\infoskema.scale-100.png">
       <PackagePath>infoskema.scale-100.png</PackagePath>
-      <Modified>2025-11-11T10:48:58.781</Modified>
+      <Modified>2025-11-13T09:22:17.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\VaeskeVandladningsSkema.deps.json">
       <PackagePath>VaeskeVandladningsSkema.deps.json</PackagePath>
-      <Modified>2025-11-11T10:49:27.410</Modified>
+      <Modified>2025-11-13T09:22:40.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

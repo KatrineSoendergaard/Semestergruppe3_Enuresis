@@ -1,4 +1,5 @@
 using Microsoft.Maui.Controls;
+using System.Formats.Tar;
 
 namespace VaeskeVandladningsSkema.Pages
 {
@@ -11,50 +12,29 @@ namespace VaeskeVandladningsSkema.Pages
 
         private async void OnInfoClicked(object sender, System.EventArgs e)
         {
-            await Shell.Current.GoToAsync("//info");
+            await Shell.Current.GoToAsync("//info"); // "//" betyder, at du navigerer til en top-level route (altså en FlyoutItem)
         }
 
-        private async void OnDag1Clicked(object sender, System.EventArgs e)
+        private async void OnSkemaClicked(object sender, System.EventArgs e)
         {
-            await Shell.Current.GoToAsync("SkemaPage?dag=1");
+            await Shell.Current.GoToAsync("//skema");
         }
 
-        private async void OnDag2Clicked(object sender, System.EventArgs e)
-        {
-            await Shell.Current.GoToAsync("SkemaPage?dag=2");
-        }
-
-        private async void OnDag3Clicked(object sender, System.EventArgs e)
-        {
-            await Shell.Current.GoToAsync("SkemaPage?dag=3");
-        }
-
-        private async void OnDag4Clicked(object sender, System.EventArgs e)
-        {
-            await Shell.Current.GoToAsync("SkemaPage?dag=4");
-        }
-
-        private async void OnDag5Clicked(object sender, System.EventArgs e)
-        {
-            await Shell.Current.GoToAsync("SkemaPage?dag=5");
-        }
-
-        private async void OnDag6Clicked(object sender, System.EventArgs e)
-        {
-            await Shell.Current.GoToAsync("SkemaPage?dag=6");
-        }
-        private async void OnDag7Clicked(object sender, System.EventArgs e)
-        {
-            await Shell.Current.GoToAsync("SkemaPage?dag=7");
-        }
         private async void OnOversigtClicked(object sender, System.EventArgs e)
         {
-            await Shell.Current.GoToAsync("LogSkema");
+            await Shell.Current.GoToAsync("//logoversigt");
         }
 
         private async void OnLogoutClicked(object sender, System.EventArgs e)
         {
-            await Shell.Current.GoToAsync("LoginPage");
+            // Ryd globalt
+            GlobalData.Navn = string.Empty;
+            GlobalData.Cpr = string.Empty;
+
+            
+
+            // Naviger tilbage til login
+            await Shell.Current.GoToAsync("//LoginPage");
         }
     }
 }
