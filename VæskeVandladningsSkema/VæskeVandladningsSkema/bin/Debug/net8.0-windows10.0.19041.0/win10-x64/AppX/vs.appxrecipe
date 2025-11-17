@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-11-13T09:22:40.594</Modified>
+      <Modified>2025-11-17T07:35:10.690</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\VaeskeVandladningsSkema.dll">
       <PackagePath>VaeskeVandladningsSkema.dll</PackagePath>
-      <Modified>2025-11-13T09:22:38.863</Modified>
+      <Modified>2025-11-17T07:35:09.538</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>VaeskeVandladningsSkema.exe</PackagePath>
-      <Modified>2025-11-13T09:22:38.934</Modified>
+      <Modified>2025-11-17T07:35:09.594</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katri\Projekt3\VæskeVandladningsSkema\VæskeVandladningsSkema\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BLE_vaegt_app.Pages.MenuPage"
+             BackgroundColor="White"
+             Title="Menu">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="100" Spacing="12" BackgroundColor="White">
+
+            <Label Text="Vælg den ønskede kategori" FontAttributes="Bold" FontSize="Subtitle"  />
+
+            <Button Text="Information" Clicked="OnInfoClicked" Margin="0,20,0,0" BackgroundColor="LightSteelBlue" />
+
+
+            <Button Text="Skema" Clicked="OnSkemaClicked" Margin="0,20,0,0" BackgroundColor="LightSteelBlue" />
+
+            <Button Text="Oversigt af målinger" Clicked="OnOversigtClicked" Margin="0,20,0,0" BackgroundColor="LightSteelBlue" />
+
+            <Button Text="Log ud" Clicked="OnLogoutClicked" Margin="0,40,0,0" BackgroundColor="LightSalmon" FontAttributes="Bold" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

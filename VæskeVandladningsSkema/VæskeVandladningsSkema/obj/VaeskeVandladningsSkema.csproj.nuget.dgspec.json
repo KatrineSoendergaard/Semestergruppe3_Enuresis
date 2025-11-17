@@ -84,6 +84,10 @@
               "target": "Package",
               "version": "[8.0.19, )",
               "autoReferenced": true
+            },
+            "Plugin.BLE": {
+              "target": "Package",
+              "version": "[3.2.0, )"
             }
           },
           "imports": [
@@ -149,6 +153,10 @@
               "target": "Package",
               "version": "[8.0.19, )",
               "autoReferenced": true
+            },
+            "Plugin.BLE": {
+              "target": "Package",
+              "version": "[3.2.0, )"
             }
           },
           "imports": [
@@ -202,6 +210,10 @@
               "target": "Package",
               "version": "[8.0.19, )",
               "autoReferenced": true
+            },
+            "Plugin.BLE": {
+              "target": "Package",
+              "version": "[3.2.0, )"
             }
           },
           "imports": [
@@ -250,6 +262,10 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.100, )"
+            },
+            "Plugin.BLE": {
+              "target": "Package",
+              "version": "[3.2.0, )"
             }
           },
           "imports": [

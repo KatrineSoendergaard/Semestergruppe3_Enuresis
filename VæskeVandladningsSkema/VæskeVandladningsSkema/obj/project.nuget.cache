@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RRNbbVDOHB0=",
+  "dgSpecHash": "Dac6onhR2Jk=",
   "success": true,
   "projectFilePath": "C:\\Users\\katri\\Projekt3\\VæskeVandladningsSkema\\VæskeVandladningsSkema\\VaeskeVandladningsSkema.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,7 @@
     "C:\\Users\\katri\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.19\\microsoft.net.illink.tasks.8.0.19.nupkg.sha512",
     "C:\\Users\\katri\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\katri\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240802000\\microsoft.windowsappsdk.1.5.240802000.nupkg.sha512",
+    "C:\\Users\\katri\\.nuget\\packages\\plugin.ble\\3.2.0\\plugin.ble.3.2.0.nupkg.sha512",
     "C:\\Users\\katri\\.nuget\\packages\\xamarin.android.glide\\4.15.1.2\\xamarin.android.glide.4.15.1.2.nupkg.sha512",
     "C:\\Users\\katri\\.nuget\\packages\\xamarin.android.glide.annotations\\4.15.1.2\\xamarin.android.glide.annotations.4.15.1.2.nupkg.sha512",
     "C:\\Users\\katri\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.15.1.2\\xamarin.android.glide.disklrucache.4.15.1.2.nupkg.sha512",
