@@ -4,6 +4,16 @@ using Plugin.BLE.Abstractions.Contracts;
 using Plugin.BLE.Abstractions.Exceptions;
 using DataSkema_Library;
 
+
+
+
+// Alt der står i denne klasse skal ikke nødvendigvis have UI.
+// Evt. en popup til connect til vægt (så de ikke tager måling før den er connected
+
+
+
+
+
 namespace BLE_vaegt_app
 {
     public partial class MainPage : ContentPage
