@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BLE-vaegt-app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e32c90049e1df4c7a450c063b3104c505eea6b20")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+cb00ef25ecf64018639aa525422bf88fdf2e49f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("BLE-vaegt-app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BLE-vaegt-app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

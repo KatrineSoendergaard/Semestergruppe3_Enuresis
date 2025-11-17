@@ -23,3 +23,5 @@
     </ScrollView>
 
 </ContentPage>
+    
+    <!--Vi skal tilføje "nulstil målinger", så vi gør brug af deleteLog klassen-->
