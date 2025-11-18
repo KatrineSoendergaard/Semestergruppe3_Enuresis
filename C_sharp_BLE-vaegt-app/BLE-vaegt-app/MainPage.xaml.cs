@@ -135,31 +135,33 @@ namespace BLE_vaegt_app
             Preferences.Set("BleDeviceId", hm10Device.Id.ToString());
 
         }
-
-// Metode der nulstiller når der trykkes på nulstillingsknap
-        private async void DeleteButton_Clicked(object sender, EventArgs e)
-        {
-            // .NET MAUI metode der validere at brugeren vil nulstille/slette.
-            bool confirm = await DisplayAlert
-            ("Slet log", // Title hedder den i xaml
-                "Er du sikker på at du vil slette logfilen?", // Message
-                "Ja", // Accept button
-                "Nej" // Cancel button
-            );
-
-            if (confirm)
-            {
-                // Brugeren clicked "Ja"
-                DeleteLog deleteLog = new DeleteLog();
-                deleteLog.DeleteLogFile("vandladningskema.csv");
-            }
-            else
-            {
-                // Brugeren clicked "Nej"
-                StatusLabel.Text = "Sletning annulleret";
-            }
-        }
     }
 }
+
+// Metode der nulstiller når der trykkes på nulstillingsknap
+//        private async void DeleteButton_Clicked(object sender, EventArgs e)
+//        {
+//            // .NET MAUI metode der validere at brugeren vil nulstille/slette.
+//            bool confirm = await DisplayAlert
+//            ("Slet log", // Title hedder den i xaml
+//                "Er du sikker på at du vil slette logfilen?", // Message
+//                "Ja", // Accept button
+//                "Nej" // Cancel button
+//            );
+
+//            if (confirm)
+//            {
+//                // Brugeren clicked "Ja"
+//                DeleteLog deleteLog = new DeleteLog();
+//                deleteLog.DeleteLogFile("vandladningskema.csv");
+//            }
+//            else
+//            {
+//                // Brugeren clicked "Nej"
+//                StatusLabel.Text = "Sletning annulleret";
+//            }
+//        }
+//    }
+//}
 
 

@@ -60,6 +60,6 @@ public partial class SkemaPage : ContentPage
                     entry.Text = string.Empty;
 
             // Naviger til Oversigt af målinger
-            await Shell.Current.GoToAsync("//logoversigt");
+            await Shell.Current.GoToAsync("logoversigt");
         }
 }

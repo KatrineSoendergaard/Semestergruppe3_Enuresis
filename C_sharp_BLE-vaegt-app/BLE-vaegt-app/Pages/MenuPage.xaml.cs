@@ -9,17 +9,17 @@ public partial class MenuPage : ContentPage
 
         private async void OnInfoClicked(object sender, System.EventArgs e)
         {
-            await Shell.Current.GoToAsync("//info"); // "//" betyder, at du navigerer til en top-level route (altså en FlyoutItem)
+            await Shell.Current.GoToAsync("info"); // "//" betyder, at du navigerer til en top-level route (altså en FlyoutItem)
         }
 
         private async void OnSkemaClicked(object sender, System.EventArgs e)
         {
-            await Shell.Current.GoToAsync("//skema");
+            await Shell.Current.GoToAsync("skema");
         }
 
         private async void OnOversigtClicked(object sender, System.EventArgs e)
         {
-            await Shell.Current.GoToAsync("//logoversigt");
+            await Shell.Current.GoToAsync("logoversigt");
         }
 
         private async void OnLogoutClicked(object sender, System.EventArgs e)
@@ -31,7 +31,7 @@ public partial class MenuPage : ContentPage
 
 
             // Naviger tilbage til login
-            await Shell.Current.GoToAsync("//LoginPage");
+            await Shell.Current.GoToAsync("///LoginPage");
         }
 
 }

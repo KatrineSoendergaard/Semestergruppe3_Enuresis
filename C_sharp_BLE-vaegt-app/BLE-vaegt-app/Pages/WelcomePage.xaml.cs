@@ -53,7 +53,7 @@ public partial class WelcomePage : ContentPage
     private async void OnContinueClicked(object sender, EventArgs e)
     {
         // Navigér videre til hovedmenuen
-        await Shell.Current.GoToAsync("//mainmenu");
+        await Shell.Current.GoToAsync("mainmenu");
     }
 }
 

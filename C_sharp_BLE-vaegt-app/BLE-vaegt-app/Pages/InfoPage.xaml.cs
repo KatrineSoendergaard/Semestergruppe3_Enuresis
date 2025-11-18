@@ -11,6 +11,6 @@ namespace BLE_vaegt_app.Pages;
         // Gør brug af await derfor skal du bruge async metode
         private async void OnNextClicked(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync("//mainmenu");
+            await Shell.Current.GoToAsync("mainmenu");
         }
     }

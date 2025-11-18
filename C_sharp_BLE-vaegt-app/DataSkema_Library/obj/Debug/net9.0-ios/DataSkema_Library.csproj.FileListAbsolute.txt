@@ -1,6 +1,5 @@
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\DataSkema_Library\bin\Debug\net9.0-ios\DataSkema_Library.dll
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\DataSkema_Library\bin\Debug\net9.0-ios\DataSkema_Library.pdb
-C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\DataSkema_Library\obj\Debug\net9.0-ios\build-signature\signature
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\DataSkema_Library\obj\Debug\net9.0-ios\actool\_PartialAppManifest.items
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\DataSkema_Library\obj\Debug\net9.0-ios\actool\_BundleResourceWithLogicalName.items
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\DataSkema_Library\obj\Debug\net9.0-ios\actool\_ProcessedImageAssetsPath.items
