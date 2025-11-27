@@ -17,6 +17,8 @@
 
             <Button Text="Oversigt af målinger" Clicked="OnOversigtClicked" Margin="0,20,0,0" BackgroundColor="LightSteelBlue" />
 
+            <Button Text="Bluetooth" Clicked="OnBluetoothClicked" Margin="0,20,0,0" BackgroundColor="LightSteelBlue"/>
+
             <Button Text="Log ud" Clicked="OnLogoutClicked" Margin="0,40,0,0" BackgroundColor="LightSalmon" FontAttributes="Bold" />
 
         </VerticalStackLayout>

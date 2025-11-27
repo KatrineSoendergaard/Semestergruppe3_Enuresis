@@ -22,16 +22,18 @@ public partial class MenuPage : ContentPage
             await Shell.Current.GoToAsync("logoversigt");
         }
 
+        private async void OnBluetoothClicked(object sender, System.EventArgs e)
+        {
+            await Shell.Current.GoToAsync("MainPage");
+        }
         private async void OnLogoutClicked(object sender, System.EventArgs e)
         {
-            // Ryd globalt
-            GlobalData.Navn = string.Empty;
-            GlobalData.Cpr = string.Empty;
 
+        // Ryd globalt
+        GlobalData.Reset();
 
-
-            // Naviger tilbage til login
-            await Shell.Current.GoToAsync("///LoginPage");
-        }
+        // Naviger tilbage til login
+        await Shell.Current.GoToAsync("///LoginPage");
+    }
 
 }

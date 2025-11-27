@@ -6,11 +6,45 @@
     xmlns:local="clr-namespace:BLE_vaegt_app"
     xmlns:pages="clr-namespace:BLE_vaegt_app.Pages"
     Title="BLE_vaegt_app"
-    Shell.FlyoutBehavior="Disabled">
+    Shell.FlyoutBehavior="Flyout">
 
     <ShellContent
-        Title="Login"
-        ContentTemplate="{DataTemplate pages:LoginPage}"
-        Route="LoginPage" />
+        Route="LoginPage"
+        ContentTemplate="{DataTemplate pages:LoginPage}" 
+        FlyoutItemIsVisible="False"
+    />
+
+
+    <!--SKAL DISSE MED ????????-->
+
+
+    <!--<ShellContent
+        Title="Bluetooth"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" 
+        
+        />-->
+    
+    <!-- Flyout-menu --><!--
+    <FlyoutItem Title="Information">
+        <ShellContent Title="Information" ContentTemplate="{DataTemplate pages:InfoPage}" Route="info" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Menu">
+        <ShellContent Title="Menu" ContentTemplate="{DataTemplate pages:MenuPage}" Route="mainmenu" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Indtast måling">
+        <ShellContent Title="Indtatst måling"
+                      ContentTemplate="{DataTemplate pages:SkemaPage}" 
+                      Route="skema" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Oversigt af målinger">
+        <ShellContent Title="Oversigt af målinger" ContentTemplate="{DataTemplate pages:LogSkema}" Route="logoversigt" />
+    </FlyoutItem>
+
+    <MenuItem Text="Log ud" Clicked="OnLogoutClicked"/>-->
 
 </Shell>
+

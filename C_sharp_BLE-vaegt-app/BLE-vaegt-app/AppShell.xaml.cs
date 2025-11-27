@@ -6,7 +6,6 @@
         {
             InitializeComponent();
 
-            // Register all navigation routes with full namespace
             Routing.RegisterRoute("WelcomePage", typeof(BLE_vaegt_app.Pages.WelcomePage));
             Routing.RegisterRoute("mainmenu", typeof(BLE_vaegt_app.Pages.MenuPage));
             Routing.RegisterRoute("info", typeof(BLE_vaegt_app.Pages.InfoPage));
@@ -14,6 +13,21 @@
             Routing.RegisterRoute("logoversigt", typeof(BLE_vaegt_app.Pages.LogSkema));
             Routing.RegisterRoute("MainPage", typeof(BLE_vaegt_app.MainPage));
         }
+
+        private async void OnLogoutClicked(object sender, System.EventArgs e)
+        {
+            // Ryd globalt
+            GlobalData.Navn = string.Empty;
+            GlobalData.Cpr = string.Empty;
+
+
+
+            // Naviger tilbage til login
+            await Shell.Current.GoToAsync("///LoginPage");
+        }
+
     }
 }
+
+
 

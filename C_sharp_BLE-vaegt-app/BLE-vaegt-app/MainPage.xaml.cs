@@ -32,6 +32,9 @@ namespace BLE_vaegt_app
             ble = CrossBluetoothLE.Current;
             adapter = CrossBluetoothLE.Current.Adapter;
             handler = new MeasurementHandler();
+
+            handler.HandleIncomingData("ts:20.8", WeightLabel, LogData, FilLabel);
+
             ConnectAutomatically();
         }
 

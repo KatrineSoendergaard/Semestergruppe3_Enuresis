@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pages="http://schemas.microsoft.com/dotnet/maui/global"
              x:Class="BLE_vaegt_app.MainPage">
-
+ 
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"

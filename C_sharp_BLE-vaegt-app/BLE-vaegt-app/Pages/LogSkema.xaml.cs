@@ -10,18 +10,16 @@ public partial class LogSkema : ContentPage
 
     protected override void OnAppearing()
     {
-        // Kalder basisklassen (ContentPage) OnAppearing-metode
-        // Dette sikrer, at standardopførsel ved fremvisning stadig udføres½
+        // Dette sikrer, at standardopførsel(
         base.OnAppearing();
 
-        // Tøm tidligere viste målinger i StackLayout
-        // Dette forhindrer, at gamle data vises flere gange, hvis siden genåbnes
+        // Tøm tidligere viste målinger.Dette forhindrer, at gamle data vises flere gange, hvis siden genåbnes
         MeasurementsStack.Children.Clear();
 
         // Gennemgå alle gemte målinger i den globale liste
         foreach (var data in GlobalData.SkemaData)
         {
-            // Opret en ny Label for hver måling
+            // Opret en ny Label for hver måling så den ik 
             // Teksten i Label sættes til selve dataen
             // FontSize og TextColor bestemmer udseendet
             MeasurementsStack.Children.Add(new Label

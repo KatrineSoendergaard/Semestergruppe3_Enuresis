@@ -13,5 +13,12 @@ namespace BLE_vaegt_app
         // Gem nuværende bruger
         public static string Navn { get; set; } = string.Empty;
         public static string Cpr { get; set; } = string.Empty;
+        public static void Reset()
+        {
+            Navn = string.Empty;
+            Cpr = string.Empty;
+            SkemaData.Clear();
+        }
     }
+
 }
