@@ -7,7 +7,7 @@
              Title="Oversigt af målinger">
 
     <ScrollView>
-        <StackLayout x:Name="MeasurementsStack" Padding="10" Spacing="5" />
+        <StackLayout x:Name="MeasurementsStack" Padding="10" Spacing="1" />
 
     </ScrollView>
 
