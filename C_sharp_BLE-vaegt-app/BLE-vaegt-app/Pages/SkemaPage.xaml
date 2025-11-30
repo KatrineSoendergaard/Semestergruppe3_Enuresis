@@ -4,91 +4,168 @@
              x:Class="BLE_vaegt_app.Pages.SkemaPage"
 
              BackgroundColor="White"
-             Title="Skema">
+             Title="Indtast måling">
 
-        <ScrollView>
-            <VerticalStackLayout Padding="10" Spacing="10" BackgroundColor="White">
-                <HorizontalStackLayout Spacing="15" Margin="0,20,0,10">
-                    <Label Text="Dato:" VerticalOptions="Center" />
-                    <DatePicker x:Name="DatoEntry" Format="dd-MM-yyyy" WidthRequest="150" />
+    <ScrollView>
+        <!--Dato-->
+        <VerticalStackLayout Padding="10" Spacing="10" BackgroundColor="White">
+            <HorizontalStackLayout Spacing="15" Margin="0,20,0,10">
+                <Label Text="Dato:" VerticalOptions="Center" />
+                <DatePicker x:Name="DatoEntry" Format="dd-MM-yyyy" WidthRequest="150" />
+
+            </HorizontalStackLayout>
+
+            <!-- Ble vægt -->
+            <HorizontalStackLayout Margin="0,10,0,0" HorizontalOptions="End">
+                <Label Text="Bleens vægt før brug (indtastes kun en gang):" VerticalOptions="Center" />
+                <Entry x:Name="BleVaegtEntry"
+                       WidthRequest="80"
+                       Keyboard="Numeric"
+                       Placeholder="gram" />
+            </HorizontalStackLayout>
+
+            <!-- Dag -->
+            <HorizontalStackLayout Spacing="15" Margin="0,0,0,10">
+                <Label Text="Dag:" VerticalOptions="Center" />
+                <Entry x:Name="DagEntry" Placeholder="Skriv dag (1-7)" WidthRequest="110" Keyboard="Numeric"/>
+            </HorizontalStackLayout>
+
+            <!-- TypiskDag + Info ikon -->
+            <HorizontalStackLayout Spacing="5" Margin="0,0,0,10" VerticalOptions="Center">
+                <Label Text="Typisk Dag:" VerticalOptions="Center" />
+
+                <!-- Checkbox + ikon i egen layout -->
+                <HorizontalStackLayout Spacing="2" VerticalOptions="Center">
+                    <CheckBox x:Name="TypiskDag" />
+                    <Label x:Name="InfoIkon"
+                            Text="ℹ️"
+                            FontSize="18"
+                            VerticalOptions="Center"
+                            Margin="-10,0,0,0">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="InfoIkon_Tapped" />
+                        </Label.GestureRecognizers>
+                    </Label>
                 </HorizontalStackLayout>
 
-                <!-- Dag -->
-                <HorizontalStackLayout Spacing="15" Margin="0,0,0,10">
-                    <Label Text="Dag:" VerticalOptions="Center" />
-                    <Entry x:Name="DagEntry" Placeholder="Skriv dag (1-7)" WidthRequest="110" Keyboard="Numeric"/>
-                </HorizontalStackLayout>
+                <!-- Info tekst -->
+                <Label x:Name="InfoText"
+                Text="Har der været noget atypisk? Har dit barn været syg, har dit barn været stresset osv."
+                IsVisible="False"
+                FontSize="14"
+                TextColor="Gray"
+                VerticalOptions="Center" />
+            </HorizontalStackLayout>
 
-                <!-- TypiskDag + Info ikon -->
-                <HorizontalStackLayout Spacing="5" Margin="0,0,0,10" VerticalOptions="Center">
-                    <Label Text="Typisk Dag:" VerticalOptions="Center" />
-                    <HorizontalStackLayout Spacing="2" VerticalOptions="Center">
-                        <CheckBox x:Name="TypiskDag" />
-                        <Label x:Name="InfoIkon"
-                           Text="ℹ️"
-                           FontSize="18"
-                           VerticalOptions="Center"
-                           Margin="-10,0,0,0">
-                            <Label.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="InfoIkon_Tapped" />
-                            </Label.GestureRecognizers>
-                        </Label>
-                    </HorizontalStackLayout>
+            <!-- Grid labels -->
+            <Grid x:Name="SkemaGrid" ColumnDefinitions="80,*,*,*,*" RowDefinitions="Auto" Margin="0,20,0,5">
+                <Label Text="Tidspunkt" Grid.Column="0" FontAttributes="Bold" />
+                <Label Text="Væskeindtag (g)" Grid.Column="1" FontAttributes="Bold"/>
+                <Label Text="Vandladning (g)" Grid.Column="2" FontAttributes="Bold"/>
+                <Label Text="Kommentar" Grid.Column="3" FontAttributes="Bold"/>
 
-                    <Label x:Name="InfoText"
-                       Text="Har der været noget atypisk? Har dit barn været syg, har dit barn været stresset osv."
-                       IsVisible="False"
-                       FontSize="14"
-                       TextColor="Gray"
-                       VerticalOptions="Center" />
-                </HorizontalStackLayout>
+            </Grid>
 
-                <!-- MANUAL ENTRY SECTION -->
-                <Frame BorderColor="LightGreen" CornerRadius="10" Padding="10" Margin="0,15,0,10" HasShadow="True">
-                    <VerticalStackLayout Spacing="5">
-                        <Label Text="✏️ Indtast manuelt eller rediger" FontAttributes="Bold" TextColor="Green" FontSize="14"/>
+            <!-- Input felter -->
+            <Grid x:Name="InputGrid" ColumnDefinitions="80,*,*,*,*" RowDefinitions="Auto" >
+                <Entry Grid.Column="0" x:Name="TidEntry" Placeholder="Fx 12:00" Keyboard ="Numeric" TextChanged="TidEntry_TextChanged"/>
+                <Entry Grid.Column="1" Placeholder="g" />
+                <Entry Grid.Column="2" Placeholder="g" />
+                <Entry Grid.Column="3" Placeholder="Evt. kommentar" />
 
-                        <Grid x:Name="SkemaGrid" ColumnDefinitions="80,*,*,*,*" RowDefinitions="Auto" Margin="0,10,0,5">
-                            <Label Text="Tidspunkt" Grid.Column="0" FontAttributes="Bold" />
-                            <Label Text="Væskeindtag (ml)" Grid.Column="1" FontAttributes="Bold"/>
-                            <Label Text="Vandladning (ml)" Grid.Column="2" FontAttributes="Bold"/>
-                            <Label Text="Ufrivillig vandladning af urin" Grid.Column="3" FontAttributes="Bold"/>
+            </Grid>
 
-                            <HorizontalStackLayout Grid.Column="4" Spacing="2" VerticalOptions="Center">
-                                <Label Text="Aktivitet" FontAttributes="Bold"/>
-                                <Label x:Name="AktivitetInfoIkon"
-                                   Text="ℹ️"
-                                   FontSize="18">
-                                    <Label.GestureRecognizers>
-                                        <TapGestureRecognizer Tapped="AktivitetInfo_Tapped"/>
-                                    </Label.GestureRecognizers>
-                                </Label>
-                            </HorizontalStackLayout>
-                        </Grid>
+            <!--Gem knap-->
+            <Button Text="Gem" Clicked="OnGemClicked" BackgroundColor="LightSteelBlue" Margin="0,20,0,5"/>
 
-                        <Label x:Name="AktivitetInfoText"
-                           Text="Hvad foretog du dig, da du var utæt for urin? Fx hostede, løftede ting, løb, gjorde gymnastik, satte dig ned i stol, så fjernsyn etc."
-                           IsVisible="False"
-                           FontSize="14"
-                           TextColor="Gray"
-                           Margin="20,0,0,10"/>
+        </VerticalStackLayout>
+    </ScrollView>
 
-                        <Grid x:Name="InputGrid" ColumnDefinitions="80,*,*,*,*" RowDefinitions="Auto" >
-                            <Entry x:Name="TidEntry" Grid.Column="0" Placeholder="Fx 07:00" />
-                            <Entry x:Name="VaeskeEntry" Grid.Column="1" Placeholder="ml" />
-                            <Entry x:Name="VandladningEntry" Grid.Column="2" Placeholder="ml" />
-                            <Entry x:Name="UfrivilligEntry" Grid.Column="3" Placeholder="ja/nej" />
-                            <Entry x:Name="AktivitetEntry" Grid.Column="4" Placeholder="Aktivitet" />
-                        </Grid>
-                    </VerticalStackLayout>
-                </Frame>
-
-                <Button Text="Gem" Clicked="OnGemClicked" BackgroundColor="LightSteelBlue" Margin="0,20,0,5"/>
-
-            </VerticalStackLayout>
-        </ScrollView>
 </ContentPage>
 
+
+
+
+
+
+             <!--Title="Indtast måling">
+
+    <ScrollView>
+        --><!--Dato--><!--
+        <VerticalStackLayout Padding="10" Spacing="10" BackgroundColor="White">
+            <HorizontalStackLayout Spacing="15" Margin="0,20,0,10">
+                <Label Text="Dato:" VerticalOptions="Center" />
+                <DatePicker x:Name="DatoEntry" Format="dd-MM-yyyy" WidthRequest="150" />
+
+            </HorizontalStackLayout>
+
+            --><!-- Ble vægt --><!--
+            <HorizontalStackLayout Margin="0,10,0,0" HorizontalOptions="End">
+                <Label Text="Bleens vægt før brug (indtastes kun en gang):" VerticalOptions="Center" />
+                <Entry x:Name="BleVaegtEntry"
+                       WidthRequest="80"
+                       Keyboard="Numeric"
+                       Placeholder="gram" />
+            </HorizontalStackLayout>
+
+            --><!-- Dag --><!--
+            <HorizontalStackLayout Spacing="15" Margin="0,0,0,10">
+                <Label Text="Dag:" VerticalOptions="Center" />
+                <Entry x:Name="DagEntry" Placeholder="Skriv dag (1-7)" WidthRequest="110" Keyboard="Numeric"/>
+            </HorizontalStackLayout>
+
+            --><!-- TypiskDag + Info ikon --><!--
+            <HorizontalStackLayout Spacing="5" Margin="0,0,0,10" VerticalOptions="Center">
+                <Label Text="Typisk Dag:" VerticalOptions="Center" />
+
+                --><!-- Checkbox + ikon i egen layout --><!--
+                <HorizontalStackLayout Spacing="2" VerticalOptions="Center">
+                    <CheckBox x:Name="TypiskDag" />
+                    <Label x:Name="InfoIkon"
+                            Text="ℹ️"
+                            FontSize="18"
+                            VerticalOptions="Center"
+                            Margin="-10,0,0,0">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="InfoIkon_Tapped" />
+                        </Label.GestureRecognizers>
+                    </Label>
+                </HorizontalStackLayout>
+
+                --><!-- Info tekst --><!--
+                <Label x:Name="InfoText"
+                Text="Har der været noget atypisk? Har dit barn været syg, har dit barn været stresset osv."
+                IsVisible="False"
+                FontSize="14"
+                TextColor="Gray"
+                VerticalOptions="Center" />
+            </HorizontalStackLayout>
+
+            --><!-- Grid labels --><!--
+            <Grid x:Name="SkemaGrid" ColumnDefinitions="80,*,*,*,*" RowDefinitions="Auto" Margin="0,20,0,5">
+                <Label Text="Tidspunkt" Grid.Column="0" FontAttributes="Bold" />
+                <Label Text="Væskeindtag (ml)" Grid.Column="1" FontAttributes="Bold"/>
+                <Label Text="Vandladning (ml)" Grid.Column="2" FontAttributes="Bold"/>
+                <Label Text="Kommentar" Grid.Column="3" FontAttributes="Bold"/>
+
+            </Grid>
+
+            --><!-- Input felter --><!--
+            <Grid x:Name="InputGrid" ColumnDefinitions="80,*,*,*,*" RowDefinitions="Auto" >
+                <Entry Grid.Column="0" x:Name="TidEntry" Placeholder="Fx 12:00" TextChanged="TidEntry_TextChanged"/>
+                <Entry Grid.Column="1" Placeholder="ml" />
+                <Entry Grid.Column="2" Placeholder="ml" />
+                <Entry Grid.Column="3" Placeholder="Evt. kommentar" />
+
+            </Grid>
+
+            --><!--Gem knap--><!--
+            <Button Text="Gem" Clicked="OnGemClicked" BackgroundColor="LightSteelBlue" Margin="0,20,0,5"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>-->
 
 
 

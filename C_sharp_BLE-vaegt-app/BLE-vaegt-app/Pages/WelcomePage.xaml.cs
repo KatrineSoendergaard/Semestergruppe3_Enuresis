@@ -4,6 +4,7 @@ using Microsoft.Maui.Controls;
 
 
 // Denne attribut gør, at "userName" fra navigationen sættes ind i egenskaben UserName
+// Fx. JENS JENSEN sættes til brugernavnet til Jens Jensen 
 [QueryProperty(nameof(UserName), "userName")]
 public partial class WelcomePage : ContentPage
 {
@@ -15,41 +16,29 @@ public partial class WelcomePage : ContentPage
     }
 
     // Property, som modtager brugernavnet fra LoginPage
+    // Gemmer det internt = private
     private string userName;
+
+    // Property som modtager brugernavnet fra navigationen via QueryProperty
     public string UserName
     {
+        // Returnerer det gemte brugernavn
         get => userName;
+        
+        // Kører når brugernavnet bliver sat
         set
         {
+            // Gemmer den nye værdi i private field
             userName = value;
+            
             // Når UserName ændres, opdateres labelen på skærmen
-            if (WelcomeLabel != null)
+            if (WelcomeLabel != null) // Tjekker om welcomeLabel findes
                 WelcomeLabel.Text = $"Velkommen, {userName}!";
         }
-
-
-
+        
     }
 
-    //public WelcomePage()
-    //{
-    //    InitializeComponent();
-
-    //    // Prøv FindByName for at se, om elementet er tilgængeligt
-    //    var lbl = this.FindByName<Label>("WelcomeLabel");
-    //    if (lbl == null)
-    //    {
-    //        System.Diagnostics.Debug.WriteLine("WelcomeLabel blev IKKE fundet via FindByName!");
-    //    }
-    //    else
-    //    {
-    //        System.Diagnostics.Debug.WriteLine("WelcomeLabel fundet — tekst før: " + lbl.Text);
-    //        lbl.Text = "Velkommen (test)"; // prøv at opdatere teksten
-    //    }
-
-    //}
-
-
+    // Metode der styrer "Forsæt" -knappen
     private async void OnContinueClicked(object sender, EventArgs e)
     {
         // Navigér videre til hovedmenuen

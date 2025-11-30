@@ -18,7 +18,7 @@ public partial class LoginPage : ContentPage
     }
 
 
-    // Gør sådan at vi kan bruge 
+    // Kaldes automatisk når når brugergrænsefladen vises på skærmen
     protected override void OnAppearing()
     {
         base.OnAppearing();

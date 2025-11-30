@@ -11,16 +11,22 @@ namespace BLE_vaegt_app.viewmodel
 {
     internal class LoginViewModel : INotifyPropertyChanged
     {
-        //Metode for navn
+        // Private field til at gemme navn internt
         private string navn;
+
+        // Property som Xaml kan binde til
         public string Navn
         {
+            // Returnerer det gemte navn
             get => navn;
+
+            // Køres når navn bliver ændret
             set
-            {
+            { 
+                // Tjekker om værdien er blevet ændret
                 if (navn != value)
                 {
-                    // Kun bogstaver i bogstavsfeltet
+                    // Kun bogstaver + danske tegn og mellemrum i bogstavsfeltet
                     navn = Regex.Replace(value ?? "", @"[^a-zA-ZæøåÆØÅ\s]", "");
                     OnPropertyChanged(nameof(Navn));
                 }

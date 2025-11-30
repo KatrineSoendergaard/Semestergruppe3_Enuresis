@@ -6,7 +6,7 @@
     xmlns:local="clr-namespace:BLE_vaegt_app"
     xmlns:pages="clr-namespace:BLE_vaegt_app.Pages"
     Title="BLE_vaegt_app"
-    Shell.FlyoutBehavior="Flyout">
+    Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
         Route="LoginPage"

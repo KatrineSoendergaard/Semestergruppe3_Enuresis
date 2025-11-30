@@ -9,6 +9,7 @@ namespace BLE_vaegt_app.Pages;
         }
 
         // Gør brug af await derfor skal du bruge async metode
+        // Metode der sender brugeren videre tilbage til main menuen
         private async void OnNextClicked(object sender, EventArgs e)
         {
             await Shell.Current.GoToAsync("mainmenu");

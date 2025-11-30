@@ -7,6 +7,7 @@ C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\bin\Debug\net9.0-win
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-400.png
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\OpenSans-Regular.ttf
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\OpenSans-Semibold.ttf
+C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\bluetooth.scale-100.jpg
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLargeTile.scale-400.png
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLargeTile.scale-200.png
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLargeTile.scale-150.png
@@ -442,6 +443,7 @@ C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0-win
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauifont.stamp
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
+C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\bluetooth.scale-100.jpg
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png

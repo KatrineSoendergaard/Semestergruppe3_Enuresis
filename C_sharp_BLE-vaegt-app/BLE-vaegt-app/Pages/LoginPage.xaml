@@ -11,7 +11,8 @@ BackgroundColor="White"
 
 
     <VerticalStackLayout Padding="100" VerticalOptions="Start" BackgroundColor="White">
-        <Label Text="Væske- og Vandladningsskema" FontSize="Title" HorizontalOptions="Center" FontAttributes="Bold" />
+        <Label Text="Væske- og" FontSize="20" HorizontalOptions="Center" FontAttributes="Bold" />
+        <Label Text="Vandladningsskema" FontSize="20" HorizontalOptions="Center" FontAttributes="Bold" />
 
         <Entry Placeholder="Indtast patientens fuldenavn"
                Text="{Binding Navn}"
@@ -30,25 +31,3 @@ BackgroundColor="White"
     </VerticalStackLayout>
 
 </ContentPage>
-
-   
-             <!--BackgroundColor="White"
-             Title="Login">
-
-    <VerticalStackLayout Padding="100" VerticalOptions="Start" BackgroundColor="White">
-        <Label Text="Væske- og Vandladningsskema" FontSize="Title" HorizontalOptions="Center" FontAttributes="Bold" />
-
-        <Entry x:Name="Navn" 
-               Placeholder="Indtast patientens fulde navn"
-               Keyboard="Text"
-               TextChanged="Navn_TextChanged"
-               Margin="0,20,0,5" />
-
-        <Entry x:Name="Cpr" 
-               Placeholder="Indtast patientens Cpr-nr." 
-               Keyboard="Numeric"
-               MaxLength="10"
-               TextChanged="Cpr_TextChanged"
-               Margin="0,20,0,5" />
-
-        <Button Text="Log In" BackgroundColor="LightSteelBlue" Clicked="OnLogin_Clicked" Margin="0,20,0,5" />-->

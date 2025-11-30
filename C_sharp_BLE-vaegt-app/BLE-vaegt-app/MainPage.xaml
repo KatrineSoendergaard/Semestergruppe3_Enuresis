@@ -9,13 +9,13 @@
             Padding="30,0"
             Spacing="25">
             <Image
-                Source="dotnet_bot.png"
+                Source="bluetooth.jpg"
                 HeightRequest="185"
                 Aspect="AspectFit"
-                SemanticProperties.Description="dot net bot in a hovercraft number nine" />
+                 />
 
             <Label
-                Text="Smart Vægt BLE"
+                Text="Bluetooth connect"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
 
@@ -24,25 +24,17 @@
                 Text="Scan efter enheder" 
                 SemanticProperties.Hint="Finder smartphone enhed"
                 Clicked="ScanButton_Clicked"
+                BackgroundColor = "DarkGrey"
                 HorizontalOptions="Fill" />
 
             <Label
                 x:Name="StatusLabel"
-                Text="Ikke forbundet" />
+                Text="Ikke forbundet"
+                FontAttributes ="Bold"/>
 
-            <Label
-                x:Name="WeightLabel"
-                Text="Vægt: -- ml"/>
-            <Label
-                x:Name="LogData"
-                Text="Her vises logdata"
-                />
-            <Label
-                x:Name ="FilLabel"
-                Text ="Her er filen gemt:  "
-                />
 
             </VerticalStackLayout>
     </ScrollView>
 
 </ContentPage>
+            

@@ -4,6 +4,9 @@
         <name>DataSkema_Library</name>
     </assembly>
     <members>
+        <member name="P:DataSkema_Library.Measurement.Dag">
+            Dag fra bruger (Dag 1, Dag 2 osv.)
+        </member>
         <member name="T:DataSkema_Library.Resource">
             <summary>
             Android Resource Designer class.

@@ -12,6 +12,7 @@
             Routing.RegisterRoute("skema", typeof(BLE_vaegt_app.Pages.SkemaPage));
             Routing.RegisterRoute("logoversigt", typeof(BLE_vaegt_app.Pages.LogSkema));
             Routing.RegisterRoute("MainPage", typeof(BLE_vaegt_app.MainPage));
+         
         }
 
         private async void OnLogoutClicked(object sender, System.EventArgs e)

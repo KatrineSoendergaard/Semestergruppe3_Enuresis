@@ -13,7 +13,7 @@
             <Button Text="Information" Clicked="OnInfoClicked" Margin="0,20,0,0" BackgroundColor="LightSteelBlue" />
 
 
-            <Button Text="Skema" Clicked="OnSkemaClicked" Margin="0,20,0,0" BackgroundColor="LightSteelBlue" />
+            <Button Text="Indtast måling" Clicked="OnSkemaClicked" Margin="0,20,0,0" BackgroundColor="LightSteelBlue" />
 
             <Button Text="Oversigt af målinger" Clicked="OnOversigtClicked" Margin="0,20,0,0" BackgroundColor="LightSteelBlue" />
 
@@ -21,9 +21,12 @@
 
             <Button Text="Log ud" Clicked="OnLogoutClicked" Margin="0,40,0,0" BackgroundColor="LightSalmon" FontAttributes="Bold" />
 
-        </VerticalStackLayout>
+
+            </VerticalStackLayout>
+        
+
     </ScrollView>
 
 </ContentPage>
     
-    <!--Vi skal tilføje "nulstil målinger", så vi gør brug af deleteLog klassen-->
+            
