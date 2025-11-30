@@ -6,15 +6,12 @@
         {
             InitializeComponent();
            
-            // INDLÆS DATA ASYNKRONT VED APP START
-            Task.Run(async () => await GlobalData.LoadMeasurements()); // <-- TILFØJ DENNE LINJE
+            // Indlæser data aynskront ved app start
+            Task.Run(async () => await GlobalData.LoadMeasurements());
 
+            // Sætter AppShell som hovedsiden(navigation shell)
+            // AppShell indeholder navigation-menuer og definerer alle app-sider
             MainPage = new AppShell();
         }
-
-        //protected override Window CreateWindow(IActivationState? activationState)
-        //{
-        //    return new Window(new AppShell());
-        //}
     }
 }

@@ -6,6 +6,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Input;
+//using ObjCBindings;
 
 namespace BLE_vaegt_app.viewmodel
 {
@@ -28,25 +29,37 @@ namespace BLE_vaegt_app.viewmodel
                 {
                     // Kun bogstaver + danske tegn og mellemrum i bogstavsfeltet
                     navn = Regex.Replace(value ?? "", @"[^a-zA-ZæøåÆØÅ\s]", "");
+                    
+                    // Fortæller UI at navn er ændret
                     OnPropertyChanged(nameof(Navn));
                 }
             }
         }
 
-        //Metode på CPR
+        //Private field til at gemme CPR internt
         private string cpr;
+
+        // Property som Xaml kan binde til
         public string Cpr
         {
+            // Returnerer det gemte CPR
             get => cpr;
             set //Alternativ til events(xaml)
             {
+                // Tjekker om værdien
                 if (cpr != value)
                 {
-                    // Kun tal + max 10 cifre
+                    // Fjerner alt andet end tal
                     string newValue = Regex.Replace(value ?? "", @"[^0-9]", "");
+
+                    // Max 10 cifre
                     if (newValue.Length > 10)
                         newValue = newValue.Substring(0, 10);
+                    
+                    // Gemmer den nye værdi
                     cpr = newValue;
+
+                    // Fortæller UI at navn er ændret
                     OnPropertyChanged(nameof(Cpr));
                 }
             }
@@ -57,39 +70,51 @@ namespace BLE_vaegt_app.viewmodel
 
         public LoginViewModel()
         {
+            // Knytter LoginCommand til OnLogin-metode. Når der trykkes på login-knappen
             LoginCommand = new Command(OnLogin);
         }
 
         // Metode der reseter navn og cpr. Arbejder sammen med onAppearing i xaml.cs
         public void OnAppearing()
         {
+            // Tømmer navn-felt
             Navn = string.Empty;
+
+            // Tømmer CPR-feltet
             Cpr = string.Empty;
         }
 
         //Metode der validerer CPR og Navn
         private async void OnLogin()
         {
-            // Validering
+            // Valider at navn er udfyldt
             if (string.IsNullOrWhiteSpace(Navn))
             {
                 await Shell.Current.DisplayAlert("Fejl", "Navn skal udfyldes.", "OK");
                 return;
             }
+            // Valider at CPR er udfyldt og har præcis 10 cifre
             if (string.IsNullOrWhiteSpace(Cpr) || Cpr.Length != 10)
             {
                 await Shell.Current.DisplayAlert("Fejl", "CPR skal være præcis 10 cifre.", "OK");
-                Cpr = string.Empty;
+                
+                // Fjerner det indtastede i CPR-feltet
+                Cpr = string.Empty; 
                 return;
             }
-            // Gem globalt
+
+            // Gem navn og CPR så de kan bruges på andre sider i appen
             GlobalData.Navn = Navn;
             GlobalData.Cpr = Cpr;
-            // Navigation
+
+            // Naviger til WelcomePage og send brugernavnet med som parameter
             await Shell.Current.GoToAsync($"WelcomePage?userName={Navn}");
         }
 
+        // Dette event bruges til at notificere UI'en når properties ændres
         public event PropertyChangedEventHandler PropertyChanged;
+
+        // Hjælpemetode som udsender PropertyChanged-eventet
         protected void OnPropertyChanged(string name) =>
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
     }

@@ -6,6 +6,8 @@
         {
             InitializeComponent();
 
+            // Routing registrerer hvilke sider der findes i appen og hvor de er placeret
+            // Dette gør det muligt at navigere mellem sider ved hjælp af deres navn
             Routing.RegisterRoute("WelcomePage", typeof(BLE_vaegt_app.Pages.WelcomePage));
             Routing.RegisterRoute("mainmenu", typeof(BLE_vaegt_app.Pages.MenuPage));
             Routing.RegisterRoute("info", typeof(BLE_vaegt_app.Pages.InfoPage));

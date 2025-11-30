@@ -8,6 +8,7 @@
 
     <ScrollView>
         <StackLayout x:Name="MeasurementsStack" Padding="10" Spacing="5" />
+
     </ScrollView>
 
 </ContentPage>
