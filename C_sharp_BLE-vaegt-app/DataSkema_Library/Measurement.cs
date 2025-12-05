@@ -32,8 +32,9 @@ namespace DataSkema_Library
         public override string ToString()
         {
             //Dette er sådan det bliver skrevet ind i filen
-            return $"{Dag} | {Timestamp:HH:mm} | {Type}: {Weight} g";
+            return $" | {Timestamp:HH:mm} | {Type}: {Weight} g";
         }
     }
 }
+//{ Dag}
 

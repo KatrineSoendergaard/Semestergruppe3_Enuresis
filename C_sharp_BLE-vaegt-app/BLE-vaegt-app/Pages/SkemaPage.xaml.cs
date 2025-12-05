@@ -6,8 +6,7 @@ using DataSkema_Library;
 
 public partial class SkemaPage : ContentPage
 {
-    //Denne skal vidst ikke bruges mere
-    //private bool _isFormattingText = false;
+
 
     public SkemaPage()
     {
@@ -43,7 +42,7 @@ public partial class SkemaPage : ContentPage
         // Start med uformaterede tekst
         string formattedText = pureDigits;
 
-        // Hvis der mindst 2 2 tal indsættes kolon ala 07:30
+        // Hvis der mindst 2. 2 tal indsættes kolon ala 07:30
         if (pureDigits.Length >= 2)
         {
             formattedText = pureDigits.Insert(2, ":");
@@ -69,7 +68,7 @@ public partial class SkemaPage : ContentPage
     private async void OnGemClicked(object sender, EventArgs e)
     {
         // Indsaml alle inputværdierne fra UI-elementerne
-        string dag = DagEntry?.Text ?? "";
+        //string dag = DagEntry?.Text ?? "";
         DateTime dato = DatoEntry.Date;
         string tid = ((Entry)InputGrid.Children[0]).Text ?? "";
         string vaeske = ((Entry)InputGrid.Children[1]).Text ?? "";
@@ -78,12 +77,12 @@ public partial class SkemaPage : ContentPage
         string ble = BleVaegtEntry?.Text ?? "";
         bool typisk = TypiskDag.IsChecked;
 
-        // Tjekker at dag og tid er udfyldt
-        if (string.IsNullOrWhiteSpace(dag) || string.IsNullOrWhiteSpace(tid))
-        {
-            await DisplayAlert("Fejl", "Du skal indtaste Dag og Tidspunkt.", "OK");
-            return;
-        }
+        //// Tjekker at dag og tid er udfyldt
+        //if (string.IsNullOrWhiteSpace(dag) || string.IsNullOrWhiteSpace(tid))
+        //{
+        //    await DisplayAlert("Fejl", "Du skal indtaste Dag og Tidspunkt.", "OK");
+        //    return;
+        //}
 
         // Validere at tid har gyldigt format
         if (!TimeSpan.TryParse(tid, out var _))
@@ -113,7 +112,7 @@ public partial class SkemaPage : ContentPage
         {
             var m = new Measurement("Ble", double.Parse(ble))
             {
-                Dag = dag,
+                //Dag = dag,
                 Timestamp = timestamp,
                 TypiskDag = typisk,
                 Kommentar = kommentarInput
@@ -126,7 +125,7 @@ public partial class SkemaPage : ContentPage
         {
             var m = new Measurement("Væske", double.Parse(vaeske))
             {
-                Dag = dag,
+                //Dag = dag,
                 Timestamp = timestamp
             };
             measurements.Add(m);
@@ -137,7 +136,7 @@ public partial class SkemaPage : ContentPage
         {
             var m = new Measurement("Vandladning", double.Parse(vandladning))
             {
-                Dag = dag,
+                //Dag = dag,
                 Timestamp = timestamp
             };
             measurements.Add(m);
@@ -154,7 +153,7 @@ public partial class SkemaPage : ContentPage
         await DisplayAlert("Gem", "Data gemt!", "OK");
 
         // Ryd alle inputfelter for at være klar til nye data
-        DagEntry.Text = string.Empty;
+        //DagEntry.Text = string.Empty;
         DatoEntry.Date = DateTime.Now;
         TypiskDag.IsChecked = false;
         BleVaegtEntry.Text = string.Empty;

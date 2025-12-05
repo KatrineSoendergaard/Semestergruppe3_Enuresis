@@ -1,0 +1,17 @@
+C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0\BLE-vaegt-app.csproj.AssemblyReference.cache
+C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0\BLE-vaegt-app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0\BLE-vaegt-app.AssemblyInfoInputs.cache
+C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0\BLE-vaegt-app.AssemblyInfo.cs
+C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0\BLE-vaegt-app.csproj.CoreCompileInputs.cache
+C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0\BLE-vaegt-app.sourcelink.json
+C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\bin\Debug\net9.0\BLE-vaegt-app.deps.json
+C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\bin\Debug\net9.0\BLE-vaegt-app.dll
+C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\bin\Debug\net9.0\BLE-vaegt-app.pdb
+C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\bin\Debug\net9.0\DataSkema_Library.dll
+C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\bin\Debug\net9.0\DataSkema_Library.pdb
+C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0\XamlC.stamp
+C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0\BLE-vaeg.F75619CB.Up2Date
+C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0\BLE-vaegt-app.dll
+C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0\refint\BLE-vaegt-app.dll
+C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0\BLE-vaegt-app.pdb
+C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0\ref\BLE-vaegt-app.dll

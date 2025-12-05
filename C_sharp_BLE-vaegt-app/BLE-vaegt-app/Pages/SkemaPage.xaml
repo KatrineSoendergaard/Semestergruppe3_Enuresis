@@ -25,10 +25,10 @@
             </HorizontalStackLayout>
 
             <!-- Dag -->
-            <HorizontalStackLayout Spacing="15" Margin="0,0,0,10">
+            <!--<HorizontalStackLayout Spacing="15" Margin="0,0,0,10">
                 <Label Text="Dag:" VerticalOptions="Center" />
                 <Entry x:Name="DagEntry" Placeholder="Skriv dag (1-7)" WidthRequest="110" Keyboard="Numeric"/>
-            </HorizontalStackLayout>
+            </HorizontalStackLayout>-->
 
             <!-- TypiskDag + Info ikon -->
             <HorizontalStackLayout Spacing="5" Margin="0,0,0,10" VerticalOptions="Center">

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLE-vaegt-app", "BLE-vaegt-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSkema_Library", "DataSkema_Library\DataSkema_Library.csproj", "{45FF2153-14AC-4BA8-9DAA-744CA9A583B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestLogIn", "UnitTestLogIn\UnitTestLogIn.csproj", "{C74087C0-F90A-4699-994E-A3D3C4D4725E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,10 @@ Global
 		{45FF2153-14AC-4BA8-9DAA-744CA9A583B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45FF2153-14AC-4BA8-9DAA-744CA9A583B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45FF2153-14AC-4BA8-9DAA-744CA9A583B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C74087C0-F90A-4699-994E-A3D3C4D4725E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C74087C0-F90A-4699-994E-A3D3C4D4725E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C74087C0-F90A-4699-994E-A3D3C4D4725E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C74087C0-F90A-4699-994E-A3D3C4D4725E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

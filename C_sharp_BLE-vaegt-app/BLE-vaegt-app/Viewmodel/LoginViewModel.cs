@@ -10,7 +10,7 @@ using System.Windows.Input;
 
 namespace BLE_vaegt_app.viewmodel
 {
-    internal class LoginViewModel : INotifyPropertyChanged
+    public class LoginViewModel : INotifyPropertyChanged
     {
         // Private field til at gemme navn internt
         private string navn;

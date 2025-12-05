@@ -258,7 +258,6 @@ C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\bin\Debug\net9.0-ios
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\bin\Debug\net9.0-ios\iossimulator-x64\DataSkema_Library.pdb
-C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0-ios\iossimulator-x64\build-signature\signature
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0-ios\iossimulator-x64\BLE-vaegt-app.csproj.AssemblyReference.cache
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0-ios\iossimulator-x64\mauiimage.inputs
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0-ios\iossimulator-x64\mauifont.inputs
@@ -270,6 +269,8 @@ C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0-ios
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@3x.png
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0-ios\iossimulator-x64\mauisplash.stamp
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\bluetooth.jpg
+C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\skemabillede.png
+C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\delete.png
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 C:\Users\katri\Projekt3\C_sharp_BLE-vaegt-app\BLE-vaegt-app\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png

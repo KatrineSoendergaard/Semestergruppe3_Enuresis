@@ -51,7 +51,7 @@ public partial class LogSkema : ContentPage
 
             grid.Add(new Label
             {
-                Text = $"Dag: {m.Dag} | Dato: {m.Timestamp:dd-MM-yyyy} | Kl. {m.Timestamp:HH:mm} | {m.Type}: {m.Weight} g" +
+                Text = $"| Dato: {m.Timestamp:dd-MM-yyyy} | Kl. {m.Timestamp:HH:mm} | {m.Type}: {m.Weight} g" +
                        (m.TypiskDag ? " | Typisk dag" : "") +
                        (!string.IsNullOrWhiteSpace(m.Kommentar) ? $" | Kommentar: {m.Kommentar}" : ""),
                
@@ -80,7 +80,7 @@ public partial class LogSkema : ContentPage
             MeasurementsStack.Children.Add(grid);
         }
 
-        // Tester slette knap gammel kode nedenunder
+        // gammel kode UDEN SLETTEKNAP nedenunder
         //// Gennemgå alle gemte målinger
         //foreach (var m in GlobalData.Measurements)
         //{

@@ -33,7 +33,7 @@ namespace BLE_vaegt_app
                 // Opretter Measurement objekt
                 var measurement = new Measurement(type, weight)
                 {
-                    Dag = "-",
+                    //Dag = "-",
                     TypiskDag = false,
                     Kommentar = "",
                     Timestamp = DateTime.Now

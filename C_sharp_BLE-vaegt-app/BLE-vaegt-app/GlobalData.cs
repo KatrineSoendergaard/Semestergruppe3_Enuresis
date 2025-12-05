@@ -1,6 +1,6 @@
 ﻿using DataSkema_Library;
 using System.Collections.ObjectModel;
-using System.Text.Json; // VIGTIGT: Tilføjet for JSON-håndtering
+using System.Text.Json; // Tilføjet for JSON-håndtering
 using Microsoft.Maui.Storage; // VIGTIGT: Tilføjet for at finde appens filsti
 
 namespace BLE_vaegt_app
